@@ -1,0 +1,178 @@
+.customer-service {
+  padding: 120px 0;
+  position: relative;
+  background: #000000;
+}
+
+.customer-service-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.customer-service-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.customer-service-container {
+  max-width: 1732px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.customer-service-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.customer-service-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.customer-service-description {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.customer-service-features {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.service-feature {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.service-feature-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #9945FF;
+  margin-bottom: 20px;
+}
+
+.service-feature-description {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #C4C4C4;
+}
+
+.service-impact {
+  text-align: center;
+}
+
+.impact-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.impact-stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.impact-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.impact-value {
+  background: #14F195;
+  border-radius: 65px;
+  padding: 15px 30px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #000000;
+  min-width: 149px;
+  text-align: center;
+}
+
+.impact-label {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  max-width: 200px;
+}
+
+@media (max-width: 1200px) {
+  .customer-service-title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+  
+  .impact-stats {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-service-title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  
+  .customer-service-description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .service-feature-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  
+  .service-feature-description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .impact-stats {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .impact-value {
+    font-size: 32px;
+  }
+  
+  .impact-label {
+    font-size: 20px;
+  }
+}

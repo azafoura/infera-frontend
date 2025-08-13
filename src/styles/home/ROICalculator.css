@@ -1,0 +1,164 @@
+.roi-calculator {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roi-container {
+  max-width: 1732px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.roi-card {
+  background: #19161C;
+  border-radius: 14px;
+  box-shadow: 0px 58px 80px rgba(0, 0, 0, 0.16);
+  padding: 53px 58px;
+  max-width: 639px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.roi-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 37.8px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.roi-form {
+  width: 100%;
+  max-width: 510px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-label {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27.3px;
+  color: #C4C4C4;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.form-input {
+  background: #0A0A0A;
+  border-radius: 15px;
+  padding: 0 20px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.input-field {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27.3px;
+  width: 100%;
+  outline: none;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.roi-result {
+  background: transparent;
+  padding: 30px 0;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.result-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.result-label {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.8px;
+  color: #ffffff;
+}
+
+.result-amount {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 37.8px;
+  color: #14F195;
+  margin: 10px 0;
+}
+
+.result-efficiency {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37.8px;
+  color: #C4C4C4;
+}
+
+.roi-cta {
+  width: 370px;
+  height: 65px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  border-radius: 80px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .roi-card {
+    padding: 40px 30px;
+  }
+  
+  .roi-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  
+  .roi-cta {
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .result-amount {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .roi-card {
+    padding: 30px 20px;
+  }
+  
+  .roi-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  .result-amount {
+    font-size: 32px;
+  }
+}

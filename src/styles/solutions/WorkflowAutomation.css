@@ -1,0 +1,202 @@
+.workflow-automation {
+  padding: 120px 0;
+  background: #000000;
+}
+
+.workflow-container {
+  max-width: 1732px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.workflow-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.workflow-header {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.workflow-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.workflow-description {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #ffffff;
+}
+
+.workflow-features {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.workflow-feature {
+  text-align: center;
+}
+
+.feature-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 39px;
+  margin-bottom: 24px;
+}
+
+.feature-description {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #C4C4C4;
+}
+
+.workflow-visual {
+  flex: 1;
+  position: relative;
+  min-height: 800px;
+}
+
+.workflow-accent-circle {
+  position: absolute;
+  width: 373px;
+  height: 343px;
+  background: rgba(240, 135, 255, 0.72);
+  border-radius: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.workflow-images {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.workflow-main-image {
+  position: absolute;
+  width: 837px;
+  height: 813px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.workflow-detail-image {
+  position: absolute;
+  width: 268px;
+  height: 319px;
+  top: 20%;
+  right: 0;
+  z-index: 2;
+}
+
+.workflow-process-image {
+  position: absolute;
+  width: 482px;
+  height: 403px;
+  top: 10%;
+  left: -100px;
+  z-index: 2;
+}
+
+.workflow-integration-image {
+  position: absolute;
+  width: 648px;
+  height: 587px;
+  bottom: 20%;
+  right: -50px;
+  z-index: 2;
+}
+
+.workflow-automation-image {
+  position: absolute;
+  width: 595px;
+  height: 656px;
+  bottom: 10%;
+  left: -150px;
+  z-index: 2;
+}
+
+.workflow-management-image {
+  position: absolute;
+  width: 587px;
+  height: 725px;
+  top: 30%;
+  left: -100px;
+  z-index: 3;
+}
+
+@media (max-width: 1200px) {
+  .workflow-container {
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .workflow-title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+  
+  .workflow-visual {
+    min-height: 600px;
+  }
+  
+  .workflow-main-image {
+    width: 600px;
+    height: 580px;
+  }
+}
+
+@media (max-width: 768px) {
+  .workflow-title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  
+  .workflow-description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .feature-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  
+  .feature-description {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .workflow-visual {
+    min-height: 400px;
+  }
+  
+  .workflow-images img {
+    display: none;
+  }
+  
+  .workflow-main-image {
+    display: block !important;
+    width: 400px;
+    height: 380px;
+  }
+}

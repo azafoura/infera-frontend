@@ -1,0 +1,128 @@
+.vision-section {
+  padding: 120px 0;
+  position: relative;
+  background: #000000;
+}
+
+.vision-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.vision-accent-shape {
+  position: absolute;
+  width: 588px;
+  height: 531px;
+  background: rgba(140, 1, 250, 0.52);
+  right: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.vision-bg-image {
+  position: absolute;
+  width: 1163px;
+  height: 1163px;
+  right: -200px;
+  top: 50%;
+  transform: translateY(-50%);
+  object-fit: contain;
+}
+
+.vision-container {
+  max-width: 1732px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.vision-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 85px;
+  background: linear-gradient(90deg, #19FB9B 0%, #8C01FA 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.vision-quote {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  max-width: 1085px;
+  margin: 0 auto 80px;
+  font-style: normal;
+}
+
+.vision-story {
+  max-width: 1165px;
+  margin: 0 auto;
+}
+
+.vision-story p {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.vision-story p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1200px) {
+  .vision-title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+  
+  .vision-quote {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  
+  .vision-story p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .vision-title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  
+  .vision-quote {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  .vision-story p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .vision-bg-image {
+    display: none;
+  }
+  
+  .vision-accent-shape {
+    width: 300px;
+    height: 200px;
+  }
+}

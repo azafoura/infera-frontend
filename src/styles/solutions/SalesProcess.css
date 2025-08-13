@@ -1,0 +1,221 @@
+.sales-process {
+  padding: 120px 0;
+  position: relative;
+  background: #000000;
+}
+
+.sales-process-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.sales-process-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sales-process-container {
+  max-width: 1732px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.sales-process-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.sales-process-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.sales-process-description {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sales-process-cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.sales-card {
+  background: rgba(25, 22, 28, 0.6);
+  border-radius: 40px;
+  padding: 40px;
+  width: 476px;
+  backdrop-filter: blur(10px);
+}
+
+.sales-card-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #9945FF;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sales-card-description {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.qualification-metrics,
+.pipeline-metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.metric,
+.pipeline-metric {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.metric-label,
+.pipeline-label {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #ffffff;
+  min-width: 180px;
+}
+
+.metric-bar,
+.pipeline-bar {
+  flex: 1;
+  height: 15px;
+  background: #ffffff;
+  border-radius: 51px;
+  overflow: hidden;
+}
+
+.metric-fill,
+.pipeline-fill {
+  height: 100%;
+  background: #14F195;
+  border-radius: 51px;
+  transition: width 0.3s ease;
+}
+
+.metric-value,
+.pipeline-value {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #14F195;
+  min-width: 80px;
+  text-align: right;
+}
+
+.followup-sequence {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sequence-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.sequence-label {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #ffffff;
+}
+
+.sequence-timing {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #14F195;
+}
+
+@media (max-width: 1200px) {
+  .sales-process-title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+  
+  .sales-process-cards {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sales-process-title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  
+  .sales-process-description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .sales-process-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sales-card {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .sales-card-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  
+  .sales-card-description {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .metric-label,
+  .pipeline-label {
+    font-size: 18px;
+    min-width: 120px;
+  }
+  
+  .sequence-label {
+    font-size: 18px;
+  }
+}

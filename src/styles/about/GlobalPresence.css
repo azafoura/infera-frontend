@@ -1,0 +1,122 @@
+.global-presence {
+  padding: 120px 0;
+  background: #000000;
+}
+
+.global-container {
+  max-width: 1732px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.global-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.global-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 39px;
+  background: linear-gradient(90deg, #19FB9B 0%, #8C01FA 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 40px;
+}
+
+.global-description {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #ffffff;
+  max-width: 883px;
+  margin: 0 auto;
+}
+
+.global-content {
+  display: flex;
+  justify-content: center;
+}
+
+.headquarters-card {
+  text-align: center;
+  max-width: 400px;
+}
+
+.headquarters-flag {
+  margin-bottom: 30px;
+}
+
+.flag-image {
+  width: 116px;
+  height: 116px;
+  object-fit: contain;
+}
+
+.headquarters-country {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.headquarters-label {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.headquarters-description {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #C4C4C4;
+}
+
+@media (max-width: 1200px) {
+  .global-title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+  
+  .global-description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .global-title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  
+  .global-description {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .headquarters-country {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  
+  .headquarters-label {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  .headquarters-description {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
